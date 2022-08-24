@@ -1,0 +1,85 @@
+# Computer Networking
+Jaringan Komputer adalah koneksi antara 2 komputer atau lebih, yang saling terhubung dengan media transmisi kabel atau tanpa kabel (wireless). Komputer saling terkoneksi apabila komputer tersebut bisa saling bertukar data / informasi, berbagi resource yang dimiliki seperti file, printer, hard disk, dll.
+
+## A. Jaringan client - server[​](https://ebook-devops.vercel.app/Linux-Shell-and-Computer-Networking/Computer-Networking#a-jaringan-client---server)
+Server adalah komputer yang menyediakan fasilitas bagi komputer-komputer lain di dalam suatu jaringan. Client adalah komputer-komputer yang menerima atau menggunakan fasilitas yang disediakan oleh server.
+
+**Keunggulan Jaringan client - server**
+
+Kecepatan akses tinggi
+Keamanan dan backup data lebih baik
+
+**Kelemahan Jaringan client - server**
+
+Biaya operasional lebih mahal
+Diperlukan adanya satu komputer khusus untuk server
+Kelangsungan jaringan sangat bergantung pada server. 
+
+# B. Jaringan peer - peer
+
+Jaringan ini adalah non-dedicated server, karena server tidak berperan sebagai server murni melainkan sekaligus dapat berperan sebagai workstation. Artinya setiap workstation dapat bertindak sebagai server maupun client.
+
+**Keunggulan peer - peer**
+
+Antar komputer dalam jaringan ini dapat berbagi fasilitas yang dimiliki
+Kelangsungan kerja jaringan tidak bergantung pada satu server.
+
+**Kelemahan Jaringan peer - peer**
+
+Sistem keamanan jaringan ditentukan oleh masing-masing user
+Data jaringan tersebar di masing-masing komputer , maka backup harus di lakukan oleh masing-masing komputer.
+
+
+
+***
+# Cara menggunakan localtunnel
+
+1. Pertama instalasi node.js menggunakan nvm untuk langkah langkah nya 
+
+masukan perintah **sudo apt install curl**
+
+![Screenshot (98)](https://user-images.githubusercontent.com/111843016/186406956-f2e0b1a8-01d4-4ada-9a13-b7d624762c5d.png)
+
+2. setelah itu masukan
+
+**curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash**
+
+![Screenshot (99)](https://user-images.githubusercontent.com/111843016/186406966-80bade7b-64ec-4824-b398-9679b65e02ed.png)
+
+3. lalu ikuti langkah di bawah 
+
+**exec bash**
+
+**nvm install 14**
+
+**node -v**
+
+**npm -v**
+
+![Screenshot (100)](https://user-images.githubusercontent.com/111843016/186406972-c542e966-85f2-41fd-be08-70a8e5e2659e.png)
+
+4. setelah itu install **localtunnel** menggunakan **npm** yang sudah kita install.
+
+**npm install -g localtunnel**
+
+![Screenshot (101)](https://user-images.githubusercontent.com/111843016/186406973-86667aab-5e95-4b99-8346-43ee41dbcfc4.png)
+
+5. sekarang kita akan menginstal apache2
+
+**sudo apt install apache2**
+
+trus kalo muncul notifikasi **Do you want to ontinue? [Y/n]** kalian ketik saja **Y**. Jika sudah maka instalasi akan berjalan.
+
+![Screenshot (102)](https://user-images.githubusercontent.com/111843016/186406978-ac1a680b-ebb1-43a1-94c5-764fd39e362b.png)
+
+6. Untuk menjalankan localtunel kalian dapat mengikuti perintah di bawah ini.
+
+**lt --port 80**
+
+![Screenshot (103)](https://user-images.githubusercontent.com/111843016/186406981-1ff20ad7-0278-4830-a401-a3e1ae73955e.png)
+
+taraaaaaaaaaaa jadi kan
+![Screenshot (104)](https://user-images.githubusercontent.com/111843016/186406982-51333b84-52cb-4f21-9acd-2bbf0a08d681.png)
+
+jadilah masa iya ga jadi
+![Screenshot (105)](https://user-images.githubusercontent.com/111843016/186406985-53d3c514-04cc-4820-a0f5-0494a2ece327.png)
